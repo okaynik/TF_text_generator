@@ -36,7 +36,7 @@ print ('{} ---- characters mapped to int ---- > {}'.format(repr(text[:13]), text
 
 # Since RNNs maintain an internal state that depends on the previously seen elements, given all the characters computed until this moment, what is the next character?
 
-# So break the text into chunks of seq_length+1. 
+# So break the text into chunks of seq_length+1.
 # For example, say seq_length is 4 and our text is "Hello". The input sequence would be "Hell", and the target sequence "ello".
 
 
